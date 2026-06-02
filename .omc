@@ -1,0 +1,43 @@
+{
+  "workspace": "ai-hero-dev",
+  "description": "AI Coding for Real Engineers — cohort 003 (March–April 2026) learning workspace",
+  "owner": "andreburgstahler@gmail.com",
+  "agentEntrypoint": "AGENTS.md",
+  "claudeEntrypoint": "CLAUDE.md",
+  "subrepos": [
+    {
+      "name": "cohort-003-project",
+      "origin": "https://github.com/ai-hero-dev/cohort-003-project",
+      "localPath": "./cohort-003-project",
+      "role": "main-exercise-repo",
+      "tech": ["React Router v7", "TypeScript 5.9", "SQLite", "Drizzle ORM", "Tailwind CSS 4", "Vitest"]
+    },
+    {
+      "name": "cohort-003-skill-building",
+      "origin": "https://github.com/ai-hero-dev/cohort-003-skill-building",
+      "localPath": "./cohort-003-skill-building",
+      "role": "skill-exercises",
+      "tech": ["TypeScript", "pnpm", "ai-hero-cli"]
+    },
+    {
+      "name": "skills",
+      "origin": "https://github.com/mattpocock/skills",
+      "localPath": "./skills",
+      "role": "claude-code-skills",
+      "tech": ["Shell", "Markdown"]
+    },
+    {
+      "name": "ai-hero-cli",
+      "origin": "https://github.com/mattpocock/ai-hero-cli",
+      "localPath": "./ai-hero-cli",
+      "role": "exercise-runner-cli",
+      "tech": ["TypeScript", "pnpm"]
+    }
+  ],
+  "conventions": {
+    "packageManager": "pnpm",
+    "nodeVersion": "22+",
+    "language": "TypeScript",
+    "formatter": "Prettier"
+  }
+}
