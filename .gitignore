@@ -1,28 +1,43 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Node / pnpm
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
 
-# Environment files
-/.env
+# Env & secrets
+.env
+.env.local
+.env.*.local
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
+# Build artifacts
+dist/
+build/
+/.react-router/
 *.tsbuildinfo
 
+# SQLite (from cohort-003-project)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Claude Code
+.claude/settings.local.json
+
+# IDEs
+.idea/
+.vscode/
+
 # Logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+# Cloned subrepos — managed by setup.sh, not tracked in git
+/cohort-003-project/
+/cohort-003-skill-building/
+/skills/
+/ai-hero-cli/
