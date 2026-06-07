@@ -107,3 +107,8 @@ pnpm cherry-pick 03.04.01
 - Use `AGENTS.md` (this file) at the start of any agent session in this workspace.
 - For the exercise repo, also read `cohort-003-project/.claude/skills/` for project-specific instructions.
 - Do not commit subrepo contents — they are in `.gitignore`.
+
+<!-- v3-ai-sdlc-init:start -->
+## AI SDLC v3
+This repo follows the v3 AI-SDLC layout. See `.ai/matrix.json`, `.memory/human-override/`, and `docs/architecture/adr/`. Modules at `r3dlex/skills/ai-sdlc-init/modules/`.
+<!-- v3-ai-sdlc-init:end -->
