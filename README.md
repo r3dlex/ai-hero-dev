@@ -30,3 +30,8 @@ These folders are **not tracked in git** (see `.gitignore`). Run `./setup.sh` to
 ./setup.sh
 cd cohort-003-project && pnpm install && pnpm db:migrate && pnpm db:seed && pnpm dev
 ```
+
+<!-- v3-ai-sdlc-init:start -->
+## AI SDLC v3
+This repo follows the v3 AI-SDLC layout. See `.ai/matrix.json`, `.memory/human-override/`, and `docs/architecture/adr/`. Modules at `r3dlex/skills/ai-sdlc-init/modules/`.
+<!-- v3-ai-sdlc-init:end -->

@@ -7,3 +7,8 @@ This is the **AI Hero Dev** learning workspace for the *AI Coding for Real Engin
 → See **[COURSE.md](./COURSE.md)** for course structure, what each section covers, and lesson-by-lesson notes.
 
 → See **[spec/](./spec/)** for detailed specifications of each sub-repository.
+
+<!-- v3-ai-sdlc-init:start -->
+## v3
+See `.ai/matrix.json` and `AGENTS.md` for the operating contract.
+<!-- v3-ai-sdlc-init:end -->
